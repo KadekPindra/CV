@@ -1,13 +1,14 @@
 "use client";
 import react from "react";
+import { faHouse, faEnvelope, faPhone,faCalendarDays, faArrowDownLong, faBarsStaggered, faXmark} from "@fortawesome/free-solid-svg-icons";
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
 import { Bars3Icon } from '@heroicons/react/24/solid';
-import closeBtn from '../Source/close.svg'
-
+import closeBtn from '../Source/xmark-solid.svg'
+import openBtn from '../Source/bars-staggered-solid.svg'
 import imageProfile from '../Source/author.jpg';
-
+const fileDownload ="http://localhost:3000/CV-IKadekPindraDwiPermana.pdf"
 
 const NavBar = () => {
     const [navbar, setNavbar] = useState(false);
@@ -16,9 +17,19 @@ const NavBar = () => {
         setNavbar(!navbar)
     }
 
+    const downloadFile = (url) => {
+      const fileName = url.split("/").pop();
+      const aTag = document.createElement("a");
+      aTag.href = url;
+      aTag.setAttribute("download",fileName);
+      document.body.appendChild(aTag);
+      aTag.click();
+      aTag.remove();
+    }
+
     return (
         <>
-        <div className="flex flex-row mx-auto justify-between items-center h-16 text-white md:h-20 lg:h-28">
+        <div className="flex flex-row mx-auto justify-between items-center h-16 text-white md:h-20 lg:h-28 w-screen">
        {/* start NAVBAR KIRI */}
         <div className="font-poppins flex items-center space-x-2 text-xs md:text-base">
           <Link legacyBehavior href="/">
@@ -48,9 +59,9 @@ const NavBar = () => {
           <div className="px-3 md:hidden xl:hidden lg:hidden flex ">
             <button className='transition ease-in-out duration-700 peer' onClick={clickNavbar}>
               {navbar ? (
-                <Image src={closeBtn} width={25} height={25} alt="close"/>
+                <Image src={closeBtn} width={20} height={20} alt="close"/>
               ) : (
-                <Bars3Icon className="w-6 h-5 cursor-pointer transition ease-in-out duration-700"/>
+                <Image src={openBtn} width={20} height={20} alt="open"/>
               )}
             </button>
           </div>            
@@ -60,7 +71,7 @@ const NavBar = () => {
 
       {navbar && (
          <div className="w-full flex justify-end md:hidden xl:hidden  ">
-            <div className='md:hidden flex items-center justify-center px-20 py-20 bg-white/60 backdrop-blur-sm text-center rounded-xl '>
+            <div className='md:hidden flex items-center justify-center px-20 py-20 bg-white/40 backdrop-blur-sm text-center rounded-xl '>
               <ul className=" md:hidden items-center justify-center text-center align-middle"> 
                 <li className="flex flex-col tracking-widest font-semibold w-full justify-center text-center items-center">
                   <a onClick={() => setNavbar(!navbar)} href="#home" className="flex py-5">home</a> 

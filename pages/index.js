@@ -1,13 +1,12 @@
 import Link from "next/link";
-import { Bars3Icon } from '@heroicons/react/24/solid';
 import Image from 'next/image';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHouse, faEnvelope, faPhone,faCalendarDays, faArrowDownLong, faGear} from "@fortawesome/free-solid-svg-icons";
+import { faHouse, faEnvelope, faPhone,faCalendarDays, faArrowDownLong, faBarsStaggered, faXmark} from "@fortawesome/free-solid-svg-icons";
 import { faSquareInstagram, faTiktok, faSquareGithub } from "@fortawesome/free-brands-svg-icons";
-import imageProfile from '../Source/author.jpg';
+
 import contoh from '../Source/Main-Photo.svg';
 import Typewriter from 'typewriter-effect';
-import closeBtn from '../Source/close.svg';
+
 
 import project1 from '../Source/UI-UX.png';
 import project2 from '../Source/crazycars.png';
@@ -17,23 +16,12 @@ import project4 from '../Source/videoEditing.png';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import { useState } from "react";
+
 import NavBar from '../components/NavBar'
 
-const fileDownload ="http://localhost:3000/CV-IKadekPindraDwiPermana.pdf"
+
 
 export default function Home() {
-
-  const downloadFile = (url) => {
-    const fileName = url.split("/").pop();
-    const aTag = document.createElement("a");
-    aTag.href = url;
-    aTag.setAttribute("download",fileName);
-    document.body.appendChild(aTag);
-    aTag.click();
-    aTag.remove();
-  }
-
   const settings = {
     lazyload: true,
     infinite: true,
@@ -42,21 +30,15 @@ export default function Home() {
     slidesToScroll: 1,
     dotsClass: "slick-dots slick-thumb",
   };
-
-  const [navbar, setNavbar] = useState(false);
-  const clickNavbar = () => {
-    setNavbar(!navbar)
-  }
   return (
 <>
-    <header className="fixed w-full h-full overflow-scroll scroll-smooth font-poppins min-w-[375px]">
+    <div className="fixed md:fixed w-screen h-full overflow-scroll scroll-smooth font-poppins overflow-x-hidden ">
     <NavBar/>
-
      {/* Home Page */}
     <div id="home" className="bg-gradient-to-r from-[#BA74FF] to-[#21BCFF] w-full h-[520px] -z-10 top-0 absolute">
-      <section className="w-full h-full mb-96 xl:mb-[300px]">  
-        <div className=" md:flex md:flex-col md:items-center md:mt-12 xl:mt-24 xl:hidden items-center flex justify-center">
-            <div className=" relative min-w-[350px] min-h-[300px] md:w-[360px] md:h-[260px] md:mx-52 mt-20 mb-16 mx-8 mb xl:mx-44  bg-white shadow-lg shadow-gray-500/40 rounded-lg">
+      <section className=" h-full mb-96 xl:mb-[300px]">  
+        <div className=" md:flex w-screen md:flex-col md:items-center md:mt-12 xl:mt-24 xl:hidden items-center flex justify-center">
+            <div className=" relative min-w-[300px] min-h-[260px] md:w-[370px] md:h-[320px] md:mx-52 mt-20 mb-16 mb xl:mx-44 shadow-lg shadow-gray-500/40 rounded-lg">
               <Image src={contoh} fill alt="Pindra" className="rounded-lg"/>
             </div>
         </div>
@@ -136,21 +118,21 @@ export default function Home() {
             <p className="text-sm md:text-base xl:text-lg text-justify leading-4 tracking-widest md:w-[272px] xl:w-fit">I am a novice programmer with a primary focus on website development. Over the past few months, I have embarked on this journey with enthusiasm and a keen interest in gaining a deeper understanding of the programming world. </p>
             <br/>
             <p className="text-sm md:text-base xl:text-lg text-justify leading-4 tracking-widest md:w-[272px] xl:w-fit">My experience as a beginner programmer includes exploring various programming languages such as HTML, CSS, and JavaScript to create visually appealing and functional interfaces for users.</p>
-            <button className="text-sm md:text-base xl:text-xl font-semibold mt-4 py-2 px-6 w-fit border-2 border-blue-400 rounded-full cursor-pointer transition-all duration-700 hover:bg-blue-600 hover:border-blue-600 hover:text-white">My Projects </button>
+            <a  className="text-sm md:text-base xl:text-xl font-semibold mt-4 py-2 px-6 w-fit border-2 border-blue-400 rounded-full cursor-pointer transition-all duration-700 hover:bg-blue-600 hover:border-blue-600 hover:text-white" href="#projecthp"><button>My Projects </button></a>
           </div>
 
           <div className="md:px-10 md:w-full xl:w-1/2 xl:px-12">
             <p className="text-base xl:text-xl font-semibold my-4 md:my-5 mb-6 tracking-wider">my skills</p>
-            <div className="flex justify-between my-2 tracking-wider md:hidden xl:flex">
-              <div className=" text-sm xl:text-lg font-semibold border w-fit py-2 px-5 rounded-md bg-[#E5E5E5]">HTML</div>
-              <div className=" text-sm xl:text-lg font-semibold border w-fit py-2 px-5 rounded-md bg-[#E5E5E5]">CSS</div>
-              <div className=" text-sm xl:text-lg font-semibold border w-fit py-2 px-5 rounded-md bg-[#E5E5E5]">JS</div>
-              <div className=" text-sm xl:text-lg font-semibold border w-fit py-2 px-5 rounded-md bg-[#E5E5E5]">Java</div>
+            <div className="flex justify-between my-2 tracking-wider md:hidden xl:flex ">
+              <div className=" text-sm xl:text-lg font-semibold border w-fit py-2 px-3 rounded-md bg-[#E5E5E5]">HTML</div>
+              <div className=" text-sm xl:text-lg font-semibold border w-fit py-2 px-3 rounded-md bg-[#E5E5E5]">CSS</div>
+              <div className=" text-sm xl:text-lg font-semibold border w-fit py-2 px-3 rounded-md bg-[#E5E5E5]">JS</div>
+              <div className=" text-sm xl:text-lg font-semibold border w-fit py-2 px-3 rounded-md bg-[#E5E5E5]">Java</div>
             </div>
             <div className="flex justify-between my-2 tracking-wider md:hidden xl:flex">
-              <div className=" text-sm xl:text-lg font-semibold border w-fit py-2 px-5 rounded-md bg-[#E5E5E5]">UI/UX</div>
-              <div className=" text-sm xl:text-lg font-semibold border w-fit py-2 px-5 rounded-md bg-[#E5E5E5]">Phyton</div>
-              <div className=" text-sm xl:text-lg font-semibold border w-fit py-2 px-5 rounded-md bg-[#E5E5E5]">Laravel Basic</div>  
+              <div className=" text-sm xl:text-lg font-semibold border w-fit py-2 px-3 rounded-md bg-[#E5E5E5]">UI/UX</div>
+              <div className=" text-sm xl:text-lg font-semibold border w-fit py-2 px-3 rounded-md bg-[#E5E5E5]">Phyton</div>
+              <div className=" text-xs xl:text-lg font-semibold border w-fit py-2 px-2 rounded-md items-center bg-[#E5E5E5]">Laravel Basic</div>  
             </div>
             <div className="hidden md:flex md:justify-between md:my-4 tracking-widest xl:hidden">
               <div className=" text-sm md:text-base opacity-90 font-semibold border w-fit py-2 px-5 rounded-md bg-[#E5E5E5]">HTML</div>
@@ -191,7 +173,7 @@ export default function Home() {
       <div className="w-full  h-96 bg-gradient-to-t  from-[#7201db] to-[#17002c] xl:-mb-36 xl:mt-32 -z-50 md:flex xl:flex items-center" >
           <div className="flex w-full justify-center flex-col items-center text-white">
               <p className="text-2xl font-semibold font-poppins  tracking-wider mt-20">My Projects</p>
-              <p className="font-poppins xl:mt-10 xl:text-base xl:font-semibold w-[24rem] mt-5 text-center tracking-wider">The following are projects that I have worked on and have mastered well.  All of these projects are the result of independent practice to hone my own skills.</p>
+              <p className="font-poppins xl:mt-10 xl:text-base xl:font-semibold w-[20rem] mt-5 mx-5 text-center tracking-wider">The following are projects that I have worked on and have mastered well.  All of these projects are the result of independent practice to hone my own skills.</p>
             </div>
           </div>
             <div className=" h-fit w-full xl:hidden md:hidden -mt-16">
@@ -229,7 +211,7 @@ export default function Home() {
                       <div className="max-w-[20rem] "><Image src={project3} alt="Website" className="rounded-lg"/></div>
                       <div className="flex flex-col justify-center items-center gap-5">
                         <h1 className="text-xl font-poppins xl:font-black xl:text-xl xl:mt-4 md:font-[1000]"><b>Portofolio Website</b></h1>
-                        <p className="max-w-[20rem] text-sm h-52 mb-6 text-justify xl:mt-5 xl:text-base font-semibold leading-6 md:text-sm">This is my second project, namely creating a portfolio website to introduce myself on the website.  In this project I used the object of my friend who works as a photographer.  The website contains a glimpse of his personal data, skills, projects he has worked on, and contacts to contact him.  This project uses HTML, CSS and JavaScript to create it and VS-Code as the supporting software. </p>
+                        <p className="max-w-[20rem] text-xs h-fit mb- text-justify xl:mt-5 xl:text-base font-semibold leading-6 md:text-sm">This is my second project, namely creating a portfolio website to introduce myself on the website.  In this project I used the object of my friend who works as a photographer.  The website contains a glimpse of his personal data, skills, projects he has worked on, and contacts to contact him.  This project uses HTML, CSS and JavaScript to create it and VS-Code as the supporting software. </p>
                         <Link className="" href="https://www.figma.com/file/VI2asBoYPTjfxWgV5bUZUG/HUSTLE-PERFUME?type=design&node-id=0%3A1&mode=design&t=cbEGEWsJvOyLQ9qa-1"><button className="relative py-2 px-12 w-fit text-sm  font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-full  ">Try it</button></Link>
                       </div>
                     </div>
@@ -239,7 +221,7 @@ export default function Home() {
                       <div className="max-w-[20rem] "><Image src={project2} alt="Scratch" className="rounded-lg"/></div>
                       <div className="flex flex-col justify-center items-center gap-5">
                         <h1 className="text-xl font-poppins xl:font-black xl:text-xl xl:mt-4 md:font-[1000]"><b>Mini Scratch Game</b></h1>
-                        <p className="max-w-[20rem] text-sm h-52 mb-6 text-justify xl:mt-5 xl:text-base font-semibold leading-6 md:text-sm">This is one of my projects, namely a simple 2D game.  I made a game with the theme of cars driving forward and avoiding cars coming from the opposite direction.  The system of this game is that the longer the car drives, the player`s score will continue to increase.  This is one of my own ways of using logical thinking to solve a problem.</p>
+                        <p className="max-w-[20rem] text-sm h-fit text-justify xl:mt-5 xl:text-base font-semibold leading-6 md:text-sm">This is one of my projects, namely a simple 2D game.  I made a game with the theme of cars driving forward and avoiding cars coming from the opposite direction.  The system of this game is that the longer the car drives, the player`s score will continue to increase.  This is one of my own ways of using logical thinking to solve a problem.</p>
                         <Link className="" href="https://www.figma.com/file/VI2asBoYPTjfxWgV5bUZUG/HUSTLE-PERFUME?type=design&node-id=0%3A1&mode=design&t=cbEGEWsJvOyLQ9qa-1"><button className="relative py-2 px-12 w-fit text-sm  font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-full  ">Try it</button></Link>
                       </div>
                     </div>
@@ -404,13 +386,13 @@ export default function Home() {
               </div>
             </div>
       </div>
-      <div className="w-full py-5 flex items-center justify-center">
+      <div className="w-full py-5 flex items-center justify-center text-center">
         <p className="text-xs md:text-sm w-fit xl:text-base"><i>CopyRights 2023. Made by I Kadek Pindra Dwi Permana</i></p>
       </div>
       {/* FOOTER END */}
 
     </div>
-    </header> 
+    </div> 
       
  </>   
 
