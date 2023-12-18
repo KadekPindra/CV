@@ -170,7 +170,7 @@ export default function Home() {
       
       <div id="project" class="areahp">
       <div className="md:hidden xl:hidden font-poppins">
-      <div className="w-full  h-96 bg-gradient-to-t  from-[#7201db] to-[#17002c] xl:-mb-36 xl:mt-32 -z-50 md:flex xl:flex items-center" >
+      <div className="w-full  h-96 bg-gradient-to-t  from-[transparent] to-[#17002c] xl:-mb-36 xl:mt-32 -z-50 md:flex xl:flex items-center" >
           <div className="flex w-full justify-center flex-col items-center text-white">
               <p className="text-2xl font-semibold font-poppins  tracking-wider mt-20">My Projects</p>
               <p className="font-poppins xl:mt-10 xl:text-base xl:font-semibold w-[20rem] mt-5 mx-5 text-center tracking-wider">The following are projects that I have worked on and have mastered well.  All of these projects are the result of independent practice to hone my own skills.</p>
@@ -244,7 +244,7 @@ export default function Home() {
 
 
       <div class="area hidden xl:flex xl:flex-col md:flex md:flex-col">
-        <div className="w-full h-96 bg-gradient-to-t  from-[#7201db] to-[#17002c] xl:-mb-36 -z-50 md:flex xl:flex items-center" >
+        <div className="w-full h-96  xl:-mb-36 bg-gradient-to-t  from-[transparent] to-[#17002c] -z-50 md:flex xl:flex items-center" >
           <div className="flex w-full justify-center flex-col items-center text-white">
               <p className="xl:text-3xl font-semibold font-poppins xl:mt-10 md:-mt-10  tracking-wider">My Projects</p>
               <p className="font-poppins xl:mb-14 xl:mt-10 xl:text-base xl:font-semibold w-[50rem] text-center tracking-wider">The following are projects that I have worked on and have mastered well.  All of these projects are the result of independent practice to hone my own skills.</p>
