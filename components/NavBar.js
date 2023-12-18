@@ -8,23 +8,12 @@ import { Bars3Icon } from '@heroicons/react/24/solid';
 import closeBtn from '../Source/xmark-solid.svg'
 import openBtn from '../Source/bars-staggered-solid.svg'
 import imageProfile from '../Source/author.jpg';
-const fileDownload ="http://localhost:3000/CV-IKadekPindraDwiPermana.pdf"
 
 const NavBar = () => {
     const [navbar, setNavbar] = useState(false);
 
     const clickNavbar = () => {
         setNavbar(!navbar)
-    }
-
-    const downloadFile = (url) => {
-      const fileName = url.split("/").pop();
-      const aTag = document.createElement("a");
-      aTag.href = url;
-      aTag.setAttribute("download",fileName);
-      document.body.appendChild(aTag);
-      aTag.click();
-      aTag.remove();
     }
 
     return (
@@ -55,32 +44,34 @@ const NavBar = () => {
             </ul>
           </nav>
 
-          <a><button onClick={() => {downloadFile(fileDownload);}} className="font-poppins tracking-wider border-spacing-1 text-xs md:text-sm mx-2 py-2 px-4 md:mr-10 xl:mr-20 xl:text-base leading-[150%] rounded-full border-blue-600 border-2 cursor-pointer hover:bg-blue-600 hover:border-blue-600 hover:transition duration-500 hover:duration-500 hover:font-semibold hover:text-white opacity-80">Download CV</button></a>
+          <a href="https://drive.google.com/u/0/uc?id=1n8xMAasKGZgIAcNWTxev3dPhAsO8JyHP&export=download"><button className="font-poppins tracking-wider border-spacing-1 text-xs md:text-sm mx-2 py-2 px-4 md:mr-10 xl:mr-20 xl:text-base leading-[150%] rounded-full border-blue-600 border-2 cursor-pointer hover:bg-blue-600 hover:border-blue-600 hover:transition duration-500 hover:duration-500 hover:font-semibold hover:text-white opacity-80">Download CV</button></a>
           <div className="px-3 md:hidden xl:hidden lg:hidden flex ">
-            <button className='transition ease-in-out duration-700 peer' onClick={clickNavbar}>
+            <button className='delay-500 duration-1000 ease-in-out' onClick={clickNavbar}>
               {navbar ? (
                 <Image src={closeBtn} width={20} height={20} alt="close"/>
+                
               ) : (
                 <Image src={openBtn} width={20} height={20} alt="open"/>
               )}
             </button>
           </div>            
         </div>
+        
         {/* end NAVBAR KANAN */}   
       </div>
-
+      
       {navbar && (
-         <div className="w-full flex justify-end md:hidden xl:hidden  ">
-            <div className='md:hidden flex items-center justify-center px-20 py-20 bg-white/40 backdrop-blur-sm text-center rounded-xl '>
+          <div className="w-full flex md:hidden h-screen xl:hidden justify-end transition ease-in-out animate-geser duration-1000">
+            <div className='md:hidden flex items-center justify-center px-20 py-20 bg-black/40 backdrop-blur-sm text-center rounded-md '>
               <ul className=" md:hidden items-center justify-center text-center align-middle"> 
                 <li className="flex flex-col tracking-widest font-semibold w-full justify-center text-center items-center">
-                  <a onClick={() => setNavbar(!navbar)} href="#home" className="flex py-5">home</a> 
-                  <a onClick={() => setNavbar(!navbar)} href="#about" className="flex  py-5">about</a> 
-                  <a onClick={() => setNavbar(!navbar)} href="#projecthp" className="flex  py-5">projects</a>                                   
+                  <a onClick={() => setNavbar(!navbar)} href="#home" className="flex font-normal py-5 text-white">home</a> 
+                  <a onClick={() => setNavbar(!navbar)} href="#about" className="flex font-normal py-5 text-white">about</a> 
+                  <a onClick={() => setNavbar(!navbar)} href="#projecthp" className="flex font-normal py-5 text-white">projects</a>                                   
                 </li>   
               </ul>        
+            </div>
           </div>
-        </div>
        )}
 
 

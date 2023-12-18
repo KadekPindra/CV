@@ -1,3 +1,5 @@
+const { transform } = require('next/dist/build/swc');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -11,7 +13,18 @@ module.exports = {
         poppins: ["'Poppins'", "sans-serif"],
         
       },
+      animation : {
+        geser : 'geser 1s ease-in-out',
+      },
+      keyframes : {
+        geser : {
+          '0%' : { transform : 'translateX(15rem)' },
+          '100%' : { transform : 'translateX(0)'},
+        },
+      },
     },
+
+    
 
   },
 

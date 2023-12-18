@@ -6,7 +6,7 @@ import { faSquareInstagram, faTiktok, faSquareGithub } from "@fortawesome/free-b
 
 import contoh from '../Source/Main-Photo.svg';
 import Typewriter from 'typewriter-effect';
-
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import project1 from '../Source/UI-UX.png';
 import project2 from '../Source/crazycars.png';
@@ -129,10 +129,10 @@ export default function Home() {
               <div className=" text-sm xl:text-lg font-semibold border w-fit py-2 px-3 rounded-md bg-[#E5E5E5]">JS</div>
               <div className=" text-sm xl:text-lg font-semibold border w-fit py-2 px-3 rounded-md bg-[#E5E5E5]">Java</div>
             </div>
-            <div className="flex justify-between my-2 tracking-wider md:hidden xl:flex">
+            <div className="flex items-center justify-between my-2 tracking-wider md:hidden xl:flex">
               <div className=" text-sm xl:text-lg font-semibold border w-fit py-2 px-3 rounded-md bg-[#E5E5E5]">UI/UX</div>
               <div className=" text-sm xl:text-lg font-semibold border w-fit py-2 px-3 rounded-md bg-[#E5E5E5]">Phyton</div>
-              <div className=" text-xs xl:text-lg font-semibold border w-fit py-2 px-2 rounded-md items-center bg-[#E5E5E5]">Laravel Basic</div>  
+              <div className=" text-xs xl:text-lg font-semibold border w-fit py-2.5 px-2 rounded-md items-center bg-[#E5E5E5]">Laravel Basic</div>  
             </div>
             <div className="hidden md:flex md:justify-between md:my-4 tracking-widest xl:hidden">
               <div className=" text-sm md:text-base opacity-90 font-semibold border w-fit py-2 px-5 rounded-md bg-[#E5E5E5]">HTML</div>
