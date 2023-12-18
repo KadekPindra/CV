@@ -61,24 +61,19 @@ const NavBar = () => {
       </div>
       
       {navbar && (
-          <div className="w-full flex md:hidden h-screen xl:hidden justify-end transition ease-in-out animate-geser duration-1000">
+          <div className="w-full flex md:hidden h-1/2 xl:hidden justify-end transition ease-in-out animate-geser duration-1000">
             <div className='md:hidden flex items-center justify-center px-20 py-20 bg-black/40 backdrop-blur-sm text-center rounded-md '>
               <ul className=" md:hidden items-center justify-center text-center align-middle"> 
                 <li className="flex flex-col tracking-widest font-semibold w-full justify-center text-center items-center">
                   <a onClick={() => setNavbar(!navbar)} href="#home" className="flex font-normal py-5 text-white">home</a> 
                   <a onClick={() => setNavbar(!navbar)} href="#about" className="flex font-normal py-5 text-white">about</a> 
-                  <a onClick={() => setNavbar(!navbar)} href="#projecthp" className="flex font-normal py-5 text-white">projects</a>                                   
+                  <a onClick={() => setNavbar(!navbar)} href="#project" className="flex font-normal py-5 text-white">projects</a>                                   
                 </li>   
               </ul>        
             </div>
           </div>
        )}
 
-
-
-        
-        
-        
         </>
     )
 }
