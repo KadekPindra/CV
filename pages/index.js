@@ -93,7 +93,7 @@ export default function Home() {
       </section>
 
       <div className="flex flex-col md:mt-2 mt-5 opacity-70 w-full items-center justify-center">
-        <div className=" text-xs md:text-base xl:text-lg font-semibold md:mt-14 xl:-mt-10">
+        <div className=" text-xs md:text-base xl:text-lg font-semibold md:mt-14 xl:-mt-10 -mt-12">
           <Typewriter
           options = {{
             autoStart : true,

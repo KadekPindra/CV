@@ -23,10 +23,7 @@ const NavBar = () => {
         <div className="font-poppins flex items-center space-x-2 text-xs md:text-base">
           <Link legacyBehavior href="/">
             <a className="mx-3 md:mx-10 xl:mx-20 flex space-x-2 md:space-x-4 items-center ">
-              <div className="w-10 h-10 md:w-12 md:h-12 xl:w-15 xl:h-15 relative">
-              <Image src={imageProfile} fill alt="Icon Pindra" className="rounded-full object-cover "/>
-              </div>
-              <span className="font-semibold leading-[160%] w-10 md:w-28 xl:text-lg xl:w-32">It`s Me Pindra</span>
+              <span className="font-semibold leading-[160%] w-12 md:w-28 xl:text-lg xl:w-36 xl:tracking-widest md:tracking-widest tracking-wider">It`s Me Pindra</span>
             </a>
           </Link>
         </div>
@@ -61,7 +58,7 @@ const NavBar = () => {
       </div>
       
       {navbar && (
-          <div className="h-screen flex md:hidden  xl:hidden transition ease-in-out animate-geser duration-400">
+          <div className="h-1/3 flex md:hidden  xl:hidden transition ease-in-out animate-geser duration-400">
             <div className='md:hidden flex items-center justify-center w-full bg-black/50 backdrop-blur-sm text-center rounded-md '>
               <ul className=" md:hidden items-center justify-center text-center align-middle"> 
                 <li className="flex flex-col tracking-widest font-semibold w-full justify-center text-center items-center">
