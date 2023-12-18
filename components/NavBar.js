@@ -44,7 +44,7 @@ const NavBar = () => {
             </ul>
           </nav>
 
-          <a href="https://drive.google.com/u/0/uc?id=1n8xMAasKGZgIAcNWTxev3dPhAsO8JyHP&export=download"><button className="font-poppins tracking-wider border-spacing-1 text-xs md:text-sm mx-2 py-2 px-4 md:mr-10 xl:mr-20 xl:text-base leading-[150%] rounded-full border-blue-600 border-2 cursor-pointer hover:bg-blue-600 hover:border-blue-600 hover:transition duration-500 hover:duration-500 hover:font-semibold hover:text-white opacity-80">Download CV</button></a>
+          <a href="https://drive.google.com/u/0/uc?id=1rEejp6O41B4lLcuaAMkX3nK2_IgqDQ9m&export=download"><button className="font-poppins tracking-wider border-spacing-1 text-xs md:text-sm mx-2 py-2 px-4 md:mr-10 xl:mr-20 xl:text-base leading-[150%] rounded-full border-blue-600 border-2 cursor-pointer hover:bg-blue-600 hover:border-blue-600 hover:transition duration-500 hover:duration-500 hover:font-semibold hover:text-white opacity-80">Download CV</button></a>
           <div className="px-3 md:hidden xl:hidden lg:hidden flex ">
             <button className='delay-500 duration-1000 ease-in-out' onClick={clickNavbar}>
               {navbar ? (
