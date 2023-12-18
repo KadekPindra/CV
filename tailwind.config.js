@@ -18,7 +18,7 @@ module.exports = {
       },
       keyframes : {
         geser : {
-          '0%' : { transform : 'translateX(15rem)' },
+          '0%' : { transform : 'translateX(20rem)' },
           '100%' : { transform : 'translateX(0)'},
         },
       },

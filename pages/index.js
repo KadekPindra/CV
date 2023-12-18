@@ -38,7 +38,7 @@ export default function Home() {
     <div id="home" className="bg-gradient-to-r from-[#BA74FF] to-[#21BCFF] w-full h-[520px] -z-10 top-0 absolute">
       <section className=" h-full mb-96 xl:mb-[300px]">  
         <div className=" md:flex w-screen md:flex-col md:items-center md:mt-12 xl:mt-24 xl:hidden items-center flex justify-center">
-            <div className=" relative min-w-[300px] min-h-[260px] md:w-[370px] md:h-[320px] md:mx-52 mt-20 mb-16 mb xl:mx-44 shadow-lg shadow-gray-500/40 rounded-lg">
+            <div className=" relative min-w-[300px] min-h-[260px] md:w-[370px] md:h-[320px] md:mx-52 mt-20 mb-12 mb xl:mx-44 shadow-lg shadow-gray-500/40 rounded-lg">
               <Image src={contoh} fill alt="Pindra" className="rounded-lg"/>
             </div>
         </div>
@@ -55,7 +55,7 @@ export default function Home() {
                   <p className="font-semibold text-xs md:text-sm xl:text-base opacity-90 tracking-widest ">HELLO EVERYBODY, I`AM</p>
                   <p className="font-black leading-6 text-[20px] md:text-[30px] xl:text-4xl xl:w-[18rem] md:w-[16rem] md:leading-8 w-[13rem] mt-2 tracking-wide">I KADEK PINDRA DWI PERMANA</p>
                   <p className="font-bold text-sm md:text-base xl:text-lg tracking-wider mt-4">Junior Web Designer</p>
-                  <p className="text-sm leading-5 md:w-72 md:text-base xl:text-lg xl:w-96 xl:text-left md:leading-6 tracking-wide text-justify opacity-90 mt-5">Here you will see about myself and what abilities I have. Perseverance, Discipline, Not giving up easily, Always trying new things are principles that I have applied since childhood.</p>
+                  <p className="text-sm leading-5 md:w-72 md:text-base xl:text-lg xl:w-96 xl:text-left md:leading-6 tracking-wide text-justify opacity-90 mt-8">Here you will see about myself and what abilities I have. Perseverance, Discipline, Not giving up easily, Always trying new things are principles that I have applied since childhood.</p>
                 </div>
                 <div className="md:flex md:flex-col md:float-left md:w-[300px] xl:w-fit">
                   <div className="md:flex md:ml-5">
