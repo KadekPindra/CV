@@ -14,11 +14,11 @@ module.exports = {
         
       },
       animation : {
-        geser : 'geser 1s ease-in-out',
+        geser : 'geser 500ms ease-in-out',
       },
       keyframes : {
         geser : {
-          '0%' : { transform : 'translateX(20rem)' },
+          '0%' : { transform : 'translateX(23rem)' },
           '100%' : { transform : 'translateX(0)'},
         },
       },
