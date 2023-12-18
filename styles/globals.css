@@ -14,7 +14,7 @@ body{
 .area {
     position: relative;
     background: #7201db;
-    background: -webkit-linear-gradient(to left, #17002c, #3c056b);
+    background: -webkit-linear-gradient(to left, #2f3497, #3c056b);
     width: 100%;
     height: cover;
     z-index: -20;
@@ -23,7 +23,7 @@ body{
   .areahp {
     position: relative;
     background: #7201db;
-    background: -webkit-linear-gradient(to left, #17002c, #3c056b);
+    background: -webkit-linear-gradient(to left, #2f3497, #3c056b);
     width: 100%;
     height: cover;
     z-index: -10;
