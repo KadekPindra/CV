@@ -75,16 +75,16 @@ export default function Home() {
                         </div>
                       </div> 
                       <div className=" flex flex-col md:flex-row  leading-3 md:hidden">
-                        <a className="cursor-pointer my-1 md:mx-2"> <FontAwesomeIcon icon={faSquareInstagram} className="text-4xl"/></a>
-                        <a className="cursor-pointer my-1 md:mx-2"> <FontAwesomeIcon icon={faTiktok} className="text-3xl"/></a>
-                        <a className="cursor-pointer my-1 md:mx-2"> <FontAwesomeIcon icon={faSquareGithub} className="text-4xl"/></a>               
+                        <a href="https://www.instagram.com/kpindra_?igshid=ODA1NTc5OTg5Nw==" className="cursor-pointer my-1 md:mx-2"> <FontAwesomeIcon icon={faSquareInstagram} className="text-4xl"/></a>
+                        <a href="https://www.tiktok.com/@4phinnn?is_from_webapp=1&sender_device=pc" className="cursor-pointer my-1 md:mx-2"> <FontAwesomeIcon icon={faTiktok} className="text-3xl"/></a>
+                        <a href="https://github.com/KadekPindra" className="cursor-pointer my-1 md:mx-2"> <FontAwesomeIcon icon={faSquareGithub} className="text-4xl"/></a>               
                       </div>              
                     </div>              
                   </div>
                   <div className="md:flex-row xl:flex leading-3 hidden md:flex md:mx-24">
-                        <a className="cursor-pointer my-1 md:mx-3 md:mt-[75px] xl:mt-6"> <FontAwesomeIcon icon={faSquareInstagram} className="text-4xl md:text-5xl"/></a>
-                        <a className="cursor-pointer my-1 md:mx-3 md:mt-[75px] xl:mt-6"> <FontAwesomeIcon icon={faTiktok} className="text-3xl md:text-[45px]"/></a>
-                        <a className="cursor-pointer my-1 md:mx-3 md:mt-[75px] xl:mt-6"> <FontAwesomeIcon icon={faSquareGithub} className="text-4xl md:text-5xl"/></a>               
+                        <a href="https://www.instagram.com/kpindra_?igshid=ODA1NTc5OTg5Nw==" className="cursor-pointer my-1 md:mx-3 md:mt-[75px] xl:mt-6"> <FontAwesomeIcon icon={faSquareInstagram} className="text-4xl md:text-5xl"/></a>
+                        <a href="https://www.tiktok.com/@4phinnn?is_from_webapp=1&sender_device=pc" className="cursor-pointer my-1 md:mx-3 md:mt-[75px] xl:mt-6"> <FontAwesomeIcon icon={faTiktok} className="text-3xl md:text-[45px]"/></a>
+                        <a href="https://github.com/KadekPindra" className="cursor-pointer my-1 md:mx-3 md:mt-[75px] xl:mt-6"> <FontAwesomeIcon icon={faSquareGithub} className="text-4xl md:text-5xl"/></a>               
                   </div>
                 </div>            
               </div>              
@@ -379,9 +379,9 @@ export default function Home() {
               <div>
                 <p className="text-lg font-semibold mt-3 md:my-0 md:text-xl xl:text-2xl">Contact me</p>
                 <div className=" flex  leading-3 md:flex md:flex-col md:float-right">
-                  <a className="cursor-pointer my-1 mx-1 md:mx-2"> <FontAwesomeIcon icon={faSquareInstagram} className="text-3xl md:text-4xl xl:text-5xl"/></a>
-                  <a className="cursor-pointer my-1 mx-1 md:mx-2"> <FontAwesomeIcon icon={faTiktok} className="text-2xl md:text-4xl xl:text-5xl"/></a>
-                  <a className="cursor-pointer my-1 mx-1 md:mx-2"> <FontAwesomeIcon icon={faSquareGithub} className="text-3xl md:text-4xl xl:text-5xl"/></a>               
+                  <a href="https://www.instagram.com/kpindra_?igshid=ODA1NTc5OTg5Nw==" className="cursor-pointer my-1 mx-1 md:mx-2"> <FontAwesomeIcon icon={faSquareInstagram} className="text-3xl md:text-4xl xl:text-5xl"/></a>
+                  <a href="https://www.tiktok.com/@4phinnn?is_from_webapp=1&sender_device=pc" className="cursor-pointer my-1 mx-1 md:mx-2"> <FontAwesomeIcon icon={faTiktok} className="text-2xl md:text-4xl xl:text-5xl"/></a>
+                  <a href="https://github.com/KadekPindra" className="cursor-pointer my-1 mx-1 md:mx-2"> <FontAwesomeIcon icon={faSquareGithub} className="text-3xl md:text-4xl xl:text-5xl"/></a>               
                 </div>
               </div>
             </div>
