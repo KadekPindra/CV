@@ -393,7 +393,7 @@ export default function Home() {
 
     </div>
     </div> 
-      
+    <SpeedInsights />  
  </>   
 
   )
