@@ -7,7 +7,7 @@ import { faSquareInstagram, faTiktok, faSquareGithub } from "@fortawesome/free-b
 import contoh from '../Source/Main-Photo.svg';
 import Typewriter from 'typewriter-effect';
 import { SpeedInsights } from "@vercel/speed-insights/next";
-
+import { Analytics } from '@vercel/analytics/react';
 import project1 from '../Source/UI-UX.png';
 import project2 from '../Source/crazycars.png';
 import project3 from '../Source/website.png';
@@ -395,6 +395,7 @@ export default function Home() {
     </div>
     </div> 
     <SpeedInsights />  
+    <Analytics />
  </>   
 
   )
