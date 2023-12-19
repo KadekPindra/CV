@@ -32,6 +32,7 @@ export default function Home() {
   };
   return (
 <>
+<title>Pindra-Portofolio</title>
     <div className="fixed md:fixed w-screen h-full overflow-scroll scroll-smooth font-poppins overflow-x-hidden ">
     <NavBar/>
      {/* Home Page */}
