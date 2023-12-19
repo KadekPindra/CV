@@ -75,16 +75,16 @@ export default function Home() {
                         </div>
                       </div> 
                       <div className=" flex flex-col md:flex-row  leading-3 md:hidden">
-                        <a href="https://www.instagram.com/kpindra_?igshid=ODA1NTc5OTg5Nw==" className="cursor-pointer my-1 md:mx-2"> <FontAwesomeIcon icon={faSquareInstagram} className="text-4xl"/></a>
-                        <a href="https://www.tiktok.com/@4phinnn?is_from_webapp=1&sender_device=pc" className="cursor-pointer my-1 md:mx-2"> <FontAwesomeIcon icon={faTiktok} className="text-3xl"/></a>
-                        <a href="https://github.com/KadekPindra" className="cursor-pointer my-1 md:mx-2"> <FontAwesomeIcon icon={faSquareGithub} className="text-4xl"/></a>               
+                        <a href="https://www.instagram.com/kpindra_?igshid=ODA1NTc5OTg5Nw==" target="blank" className="cursor-pointer my-1 md:mx-2"> <FontAwesomeIcon icon={faSquareInstagram} className="text-4xl"/></a>
+                        <a href="https://www.tiktok.com/@4phinnn?is_from_webapp=1&sender_device=pc" target="blank" className="cursor-pointer my-1 md:mx-2"> <FontAwesomeIcon icon={faTiktok} className="text-3xl"/></a>
+                        <a href="https://github.com/KadekPindra" target="blank" className="cursor-pointer my-1 md:mx-2"> <FontAwesomeIcon icon={faSquareGithub} className="text-4xl"/></a>               
                       </div>              
                     </div>              
                   </div>
                   <div className="md:flex-row xl:flex leading-3 hidden md:flex md:mx-24">
-                        <a href="https://www.instagram.com/kpindra_?igshid=ODA1NTc5OTg5Nw==" className="cursor-pointer my-1 md:mx-3 md:mt-[75px] xl:mt-6"> <FontAwesomeIcon icon={faSquareInstagram} className="text-4xl md:text-5xl"/></a>
-                        <a href="https://www.tiktok.com/@4phinnn?is_from_webapp=1&sender_device=pc" className="cursor-pointer my-1 md:mx-3 md:mt-[75px] xl:mt-6"> <FontAwesomeIcon icon={faTiktok} className="text-3xl md:text-[45px]"/></a>
-                        <a href="https://github.com/KadekPindra" className="cursor-pointer my-1 md:mx-3 md:mt-[75px] xl:mt-6"> <FontAwesomeIcon icon={faSquareGithub} className="text-4xl md:text-5xl"/></a>               
+                        <a href="https://www.instagram.com/kpindra_?igshid=ODA1NTc5OTg5Nw==" target="blank" className="cursor-pointer my-1 md:mx-3 md:mt-[75px] xl:mt-6"> <FontAwesomeIcon icon={faSquareInstagram} className="text-4xl md:text-5xl"/></a>
+                        <a href="https://www.tiktok.com/@4phinnn?is_from_webapp=1&sender_device=pc" target="blank" className="cursor-pointer my-1 md:mx-3 md:mt-[75px] xl:mt-6"> <FontAwesomeIcon icon={faTiktok} className="text-3xl md:text-[45px]"/></a>
+                        <a href="https://github.com/KadekPindra" target="blank" className="cursor-pointer my-1 md:mx-3 md:mt-[75px] xl:mt-6"> <FontAwesomeIcon icon={faSquareGithub} className="text-4xl md:text-5xl"/></a>               
                   </div>
                 </div>            
               </div>              
@@ -201,7 +201,7 @@ export default function Home() {
                       <div className="flex flex-col justify-center items-center gap-5">
                         <h1 className="text-xl font-poppins xl:font-black xl:text-xl xl:mt-4 md:font-[1000]"><b>UI&UX Application Design</b></h1>
                         <p className="max-w-[20rem] text-sm h-52 mb-6 text-justify xl:mt-5 xl:text-base font-semibold leading-6 md:text-sm">This is my first project, namely making a sketch or blue print of the design of an application.  I took the theme of the application as an online shopping application that focuses on selling perfume.  I used Figma to make it, it contains about 83 pages or Frames.</p>
-                        <Link className="" href="https://www.figma.com/file/VI2asBoYPTjfxWgV5bUZUG/HUSTLE-PERFUME?type=design&node-id=0%3A1&mode=design&t=cbEGEWsJvOyLQ9qa-1"><button className="relative  py-2 px-12 w-fit text-sm  font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-full  ">Try it</button></Link>
+                        <Link target="blank" href="https://www.figma.com/file/VI2asBoYPTjfxWgV5bUZUG/HUSTLE-PERFUME?type=design&node-id=0%3A1&mode=design&t=cbEGEWsJvOyLQ9qa-1"><button className="relative  py-2 px-12 w-fit text-sm  font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-full  ">Try it</button></Link>
                       </div>
                     </div>
                   </div>
@@ -212,7 +212,7 @@ export default function Home() {
                       <div className="flex flex-col justify-center items-center gap-5">
                         <h1 className="text-xl font-poppins xl:font-black xl:text-xl xl:mt-4 md:font-[1000]"><b>Portofolio Website</b></h1>
                         <p className="max-w-[20rem] text-xs h-fit mb- text-justify xl:mt-5 xl:text-base font-semibold leading-6 md:text-sm">This is my second project, namely creating a portfolio website to introduce myself on the website.  In this project I used the object of my friend who works as a photographer.  The website contains a glimpse of his personal data, skills, projects he has worked on, and contacts to contact him.  This project uses HTML, CSS and JavaScript to create it and VS-Code as the supporting software. </p>
-                        <Link className="" href="https://github.com/KadekPindra/Friend-Portofolio-"><button className="relative py-2 px-12 w-fit text-sm  font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-full  ">Try it</button></Link>
+                        <Link target="blank" href="https://github.com/KadekPindra/Friend-Portofolio-"><button className="relative py-2 px-12 w-fit text-sm  font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-full  ">Try it</button></Link>
                       </div>
                     </div>
 
@@ -222,7 +222,7 @@ export default function Home() {
                       <div className="flex flex-col justify-center items-center gap-5">
                         <h1 className="text-xl font-poppins xl:font-black xl:text-xl xl:mt-4 md:font-[1000]"><b>Mini Scratch Game</b></h1>
                         <p className="max-w-[20rem] text-sm h-fit text-justify xl:mt-5 xl:text-base font-semibold leading-6 md:text-sm">This is one of my projects, namely a simple 2D game.  I made a game with the theme of cars driving forward and avoiding cars coming from the opposite direction.  The system of this game is that the longer the car drives, the player`s score will continue to increase.  This is one of my own ways of using logical thinking to solve a problem.</p>
-                        <Link className="" href="https://scratch.mit.edu/projects/939327427"><button className="relative py-2 px-12 w-fit text-sm  font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-full  ">Try it</button></Link>
+                        <Link target="blank" href="https://scratch.mit.edu/projects/939327427"><button className="relative py-2 px-12 w-fit text-sm  font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-full  ">Try it</button></Link>
                       </div>
                     </div>
 
@@ -232,7 +232,7 @@ export default function Home() {
                       <div className="flex flex-col justify-center items-center gap-5">
                         <h1 className="text-xl font-poppins xl:font-black xl:text-xl xl:mt-4 md:font-[1000]"><b>Video Editing</b></h1>
                         <p className="max-w-[20rem] text-sm h-52 mb-6 text-justify xl:mt-5 xl:text-base font-semibold leading-6 md:text-sm">This is one way for me to turn my gaming hobby into a positive thing.  I record a moment in a match and then edit it in a video editor such as Capcut and Adobe Premiere.  After that, I uploaded the edited video to my personal TikTok account.</p>
-                        <Link className="" href="https://www.tiktok.com/@4phinnn/video/7284655782908513541?is_from_webapp=1&web_id=7269032866125121026"><button className="relative py-2 px-12 w-fit text-sm  font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-full  ">Try it</button></Link>
+                        <Link target="blank" href="https://www.tiktok.com/@4phinnn/video/7284655782908513541?is_from_webapp=1&web_id=7269032866125121026"><button className="relative py-2 px-12 w-fit text-sm  font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-full  ">Try it</button></Link>
                       </div>
                     </div>
                   </div>
@@ -273,13 +273,13 @@ export default function Home() {
                 <h1 className="font-poppins xl:font-black xl:text-xl xl:mt-4 md:font-[1000]"><b>UI & UX Application Design</b></h1>
                 <hr className="leading-3"/>
                 <p className=" xl:w-[30rem] md:min-w-[20rem] xl:h-44 text-justify xl:mt-5 xl:text-base font-semibold leading-6 md:text-sm">This is my first project, namely making a sketch or blue print of the design of an application.  I took the theme of the application as an online shopping application that focuses on selling perfume.  I used Figma to make it, it contains about 83 pages or Frames.</p>
-                <Link className="" href="https://www.figma.com/file/VI2asBoYPTjfxWgV5bUZUG/HUSTLE-PERFUME?type=design&node-id=0%3A1&mode=design&t=cbEGEWsJvOyLQ9qa-1"><button className="relative py-2 px-10 w-fit xl:my-5 xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
+                <Link target="blank" href="https://www.figma.com/file/VI2asBoYPTjfxWgV5bUZUG/HUSTLE-PERFUME?type=design&node-id=0%3A1&mode=design&t=cbEGEWsJvOyLQ9qa-1"><button className="relative py-2 px-10 w-fit xl:my-5 xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
               </div>
               <div className="w-fit h-fit bg-white xl:mx-6 items-center flex flex-col xl:p-2 xl:rounded-lg shadow-xl shadow-gray-700/60">
               <div className="xl:w-[500px] relative md:rounded-lg "><Image className="rounded-lg" src={project3} alt="Website"/></div>
                 <h1 className="font-poppins xl:font-black xl:text-xl xl:mt-4 md:font-[1000]"><b>Portofolio Website</b></h1>
                 <p className=" xl:w-[30rem] md:min-w-[20rem] xl:h-44 text-justify xl:mt-5 xl:text-base font-semibold leading-6 md:text-sm">This is my second project, namely creating a portfolio website to introduce myself on the website.  In this project I used the object of my friend who works as a photographer.  The website contains a glimpse of his personal data, skills, projects he has worked on, and contacts to contact him.  This project uses HTML, CSS and JavaScript to create it and VS-Code as the supporting software. </p>
-                <Link className="" href="https://github.com/KadekPindra/Friend-Portofolio-"><button className="relative py-2 px-10 w-fit xl:my-5 xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
+                <Link target="blank" href="https://github.com/KadekPindra/Friend-Portofolio-"><button className="relative py-2 px-10 w-fit xl:my-5 xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
               </div>
             </div>
 
@@ -288,13 +288,13 @@ export default function Home() {
                 <div className="xl:w-[500px] relative md:rounded-lg "><Image className="rounded-lg" src={project2} alt="Scratch"/></div>
                 <h1 className="font-poppins xl:font-black xl:text-xl xl:mt-4 md:font-[1000]"><b>Mini Scratch Game</b></h1>
                 <p className=" xl:w-[30rem] md:min-w-[20rem] xl:h-44 text-justify xl:mt-5 xl:text-base font-semibold leading-6 md:text-sm">This is one of my projects, namely a simple 2D game.  I made a game with the theme of cars driving forward and avoiding cars coming from the opposite direction.  The system of this game is that the longer the car drives, the player`s score will continue to increase.  This is one of my own ways of using logical thinking to solve a problem.</p>
-                <Link className="" href="https://scratch.mit.edu/projects/939327427"><button className="relative py-2 px-10 w-fit xl:my-5 xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
+                <Link target="blank" href="https://scratch.mit.edu/projects/939327427"><button className="relative py-2 px-10 w-fit xl:my-5 xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
               </div>
               <div className="w-fit h-fit bg-white xl:mx-6 items-center flex flex-col xl:p-2 xl:rounded-lg shadow-xl shadow-gray-700/60">
               <div className="xl:w-[500px] relative md:rounded-lg "><Image className="rounded-lg" src={project4} alt="Tiktok"/></div>
                 <h1 className="font-poppins xl:font-black xl:text-xl xl:mt-4 md:font-[1000]"><b>Video Editing</b></h1>
                 <p className=" xl:w-[30rem] md:min-w-[20rem] xl:h-44 text-justify xl:mt-5 xl:text-base font-semibold leading-6 md:text-sm">This is one way for me to turn my gaming hobby into a positive thing.  I record a moment in a match and then edit it in a video editor such as Capcut and Adobe Premiere.  After that, I uploaded the edited video to my personal TikTok account.</p>
-                <Link className="" href="https://www.tiktok.com/@4phinnn/video/7284655782908513541?is_from_webapp=1&web_id=7269032866125121026"><button className="relative py-2 px-10 w-fit xl:my-5 xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
+                <Link target="blank" href="https://www.tiktok.com/@4phinnn/video/7284655782908513541?is_from_webapp=1&web_id=7269032866125121026"><button className="relative py-2 px-10 w-fit xl:my-5 xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
               </div>
             </div>
 
@@ -314,7 +314,7 @@ export default function Home() {
                   <h1 className="font-poppins xl:font-black xl:text-xl xl:mt-4 md:font-[1000]"><b>UI & UX Application Design</b></h1>
                   <p className=" xl:w-[30rem] md:min-w-[20rem]  xl:h-44 text-justify xl:mt-5 text-base font-semibold leading-6 md:text-sm">This is my first project, namely making a sketch or blue print of the design of an application.  I took the theme of the application as an online shopping application that focuses on selling perfume.  I used Figma to make it, it contains about 83 pages or Frames.</p>
                   </span>
-                  <Link className="md: hidden" href="https://www.figma.com/file/VI2asBoYPTjfxWgV5bUZUG/HUSTLE-PERFUME?type=design&node-id=0%3A1&mode=design&t=cbEGEWsJvOyLQ9qa-1"><button className="relative py-2 px-10 w-fit xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
+                  <Link className="md: hidden" target="blank" href="https://www.figma.com/file/VI2asBoYPTjfxWgV5bUZUG/HUSTLE-PERFUME?type=design&node-id=0%3A1&mode=design&t=cbEGEWsJvOyLQ9qa-1"><button className="relative py-2 px-10 w-fit xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
                 </div>
                 <Link className="hidden xl:hidden  w-full mt-12 mb-5  md:flex items-center justify-center" href="https://www.figma.com/file/VI2asBoYPTjfxWgV5bUZUG/HUSTLE-PERFUME?type=design&node-id=0%3A1&mode=design&t=cbEGEWsJvOyLQ9qa-1"><button className="relative py-2 px-[300px] w-fit xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
               </div>
@@ -325,7 +325,7 @@ export default function Home() {
                   <h1 className="font-poppins xl:font-black xl:text-xl xl:mt-4 md:font-[1000]"><b>Portofolio Website</b></h1>
                   <p className=" xl:w-[30rem] md:min-w-[20rem] xl:h-44 text-justify xl:mt-5 text-base font-semibold leading-6 md:text-sm">This is my second project, creating a portfolio website to introduce myself on the website.  In this project I used the object of my friend who works as a photographer.  The website contains a glimpse of his personal data, skills, projects he has worked on, and contacts to contact him.  This project uses HTML, CSS and JavaScript to create it and VS-Code as the supporting software. </p>
                   </span>
-                  <Link className="md: hidden" href="https://github.com/KadekPindra/Friend-Portofolio-"><button className="relative py-2 px-10 w-fit xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
+                  <Link className="md: hidden" target="blank" href="https://github.com/KadekPindra/Friend-Portofolio-"><button className="relative py-2 px-10 w-fit xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
                 </div>
                 <Link className="hidden xl:hidden  w-full mt-12 mb-5  md:flex items-center justify-center" href="https://github.com/KadekPindra/Friend-Portofolio-"><button className="relative py-2 px-[300px] w-fit xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
               </div>
@@ -336,7 +336,7 @@ export default function Home() {
                   <h1 className="font-poppins xl:font-black xl:text-xl xl:mt-4 md:font-[1000]"><b>Mini Game Scratch</b></h1>
                   <p className=" xl:w-[30rem] md:min-w-[20rem] xl:h-44 text-justify xl:mt-5 text-base font-semibold leading-6 md:text-sm">This is one of my projects, namely a simple 2D game.  I made a game with the theme of cars driving forward and avoiding cars coming from the opposite direction.  The system of this game is that the longer the car drives, the player`s score will continue to increase.  This is one of my own ways of using logical thinking to solve a problem.</p>
                   </span>
-                  <Link className="md: hidden" href="https://scratch.mit.edu/projects/939327427"><button className="relative py-2 px-10 w-fit xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
+                  <Link className="md: hidden" target="blank" href="https://scratch.mit.edu/projects/939327427"><button className="relative py-2 px-10 w-fit xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
                 </div>
                 <Link className="hidden xl:hidden  w-full mt-12 mb-5  md:flex items-center justify-center" href="https://scratch.mit.edu/projects/939327427"><button className="relative py-2 px-[300px] w-fit xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
               </div>
@@ -347,7 +347,7 @@ export default function Home() {
                   <h1 className="font-poppins xl:font-black xl:text-xl xl:mt-4 md:font-[1000]"><b>Video Editing</b></h1>
                   <p className=" xl:w-[30rem] md:min-w-[20rem] xl:h-44 text-justify xl:mt-5 text-base font-semibold leading-6 md:text-sm">This is one way for me to turn my gaming hobby into a positive thing.  I record a moment in a match and then edit it in a video editor such as Capcut and Adobe Premiere.  After that, I uploaded the edited video to my personal TikTok account.</p>
                   </span>
-                  <Link className="md: hidden" href="https://www.tiktok.com/@4phinnn/video/7284655782908513541?is_from_webapp=1&web_id=7269032866125121026"><button className="relative py-2 px-10 w-fit xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
+                  <Link className="md: hidden" target="blank" href="https://www.tiktok.com/@4phinnn/video/7284655782908513541?is_from_webapp=1&web_id=7269032866125121026"><button className="relative py-2 px-10 w-fit xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
                 </div>
                 <Link className="hidden xl:hidden  w-full mt-12 mb-5  md:flex items-center justify-center" href="https://www.tiktok.com/@4phinnn/video/7284655782908513541?is_from_webapp=1&web_id=7269032866125121026"><button className="relative py-2 px-[300px] w-fit xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
               </div>
@@ -379,9 +379,9 @@ export default function Home() {
               <div>
                 <p className="text-lg font-semibold mt-3 md:my-0 md:text-xl xl:text-2xl">Contact me</p>
                 <div className=" flex  leading-3 md:flex md:flex-col md:float-right">
-                  <a href="https://www.instagram.com/kpindra_?igshid=ODA1NTc5OTg5Nw==" className="cursor-pointer my-1 mx-1 md:mx-2"> <FontAwesomeIcon icon={faSquareInstagram} className="text-3xl md:text-4xl xl:text-5xl"/></a>
-                  <a href="https://www.tiktok.com/@4phinnn?is_from_webapp=1&sender_device=pc" className="cursor-pointer my-1 mx-1 md:mx-2"> <FontAwesomeIcon icon={faTiktok} className="text-2xl md:text-4xl xl:text-5xl"/></a>
-                  <a href="https://github.com/KadekPindra" className="cursor-pointer my-1 mx-1 md:mx-2"> <FontAwesomeIcon icon={faSquareGithub} className="text-3xl md:text-4xl xl:text-5xl"/></a>               
+                  <a href="https://www.instagram.com/kpindra_?igshid=ODA1NTc5OTg5Nw==" target="blank" className="cursor-pointer my-1 mx-1 md:mx-2"> <FontAwesomeIcon icon={faSquareInstagram} className="text-3xl md:text-4xl xl:text-5xl"/></a>
+                  <a href="https://www.tiktok.com/@4phinnn?is_from_webapp=1&sender_device=pc" target="blank" className="cursor-pointer my-1 mx-1 md:mx-2"> <FontAwesomeIcon icon={faTiktok} className="text-2xl md:text-4xl xl:text-5xl"/></a>
+                  <a href="https://github.com/KadekPindra" target="blank" className="cursor-pointer my-1 mx-1 md:mx-2"> <FontAwesomeIcon icon={faSquareGithub} className="text-3xl md:text-4xl xl:text-5xl"/></a>               
                 </div>
               </div>
             </div>
