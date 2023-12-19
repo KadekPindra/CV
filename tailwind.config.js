@@ -15,12 +15,17 @@ module.exports = {
       },
       animation : {
         geser : 'geser 500ms ease-in-out',
+        putar : 'putar 700ms 1',
       },
       keyframes : {
         geser : {
           '0%' : { transform : 'translateX(23rem)' },
           '100%' : { transform : 'translateX(0)'},
         },
+        putar : {
+          'from' : {transform: 'rotate(0deg)'},
+          'to' : {transform: 'rotate(360deg)'},
+        }
       },
     },
 

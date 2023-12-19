@@ -1,13 +1,10 @@
 "use client";
-import react from "react";
-import { faHouse, faEnvelope, faPhone,faCalendarDays, faArrowDownLong, faBarsStaggered, faXmark} from "@fortawesome/free-solid-svg-icons";
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
-import { Bars3Icon } from '@heroicons/react/24/solid';
 import closeBtn from '../Source/xmark-solid.svg'
 import openBtn from '../Source/bars-staggered-solid.svg'
-import imageProfile from '../Source/author.jpg';
+
 
 const NavBar = () => {
     const [navbar, setNavbar] = useState(false);
@@ -44,12 +41,11 @@ const NavBar = () => {
           <a target="blank" href="https://drive.google.com/u/0/uc?id=1rEejp6O41B4lLcuaAMkX3nK2_IgqDQ9m&export=download"><button className="font-poppins tracking-wider border-spacing-1 text-xs md:text-sm mx-2 py-2 px-4 md:mr-10 xl:mr-20 xl:text-base leading-[150%] rounded-full border-blue-600 border-2 cursor-pointer hover:bg-blue-600 hover:border-blue-600 hover:transition duration-500 hover:duration-500 hover:font-semibold hover:text-white opacity-80">Download CV</button></a>
           
           <div className="px-3 md:hidden xl:hidden lg:hidden flex ">
-            <button className='delay-500 duration-1000 ease-in-out' onClick={clickNavbar}>
+            <button className='duration-200 transition hover:animate-putar' onClick={clickNavbar}>
               {navbar ? (
-                <Image src={closeBtn} width={20} height={20} alt="close"/>
-                
+                <Image src={closeBtn} width={20} height={20} alt="close" onClick={() => setNavbar(!navbar)} />
               ) : (
-                <Image src={openBtn} width={20} height={20} alt="open"/>
+                <Image src={openBtn} width={20} height={20} alt="open" onClick={() => setNavbar(!navbar)} />
               )}
             </button>
           </div>            
@@ -59,17 +55,18 @@ const NavBar = () => {
       </div>
       
       {navbar && (
-          <div className="h-1/3 flex md:hidden  xl:hidden transition ease-in-out animate-geser duration-400">
-            <div className='md:hidden flex items-center justify-center w-full bg-black/50 backdrop-blur-sm text-center rounded-md '>
-              <ul className=" md:hidden items-center justify-center text-center align-middle"> 
-                <li className="flex flex-col tracking-widest font-semibold w-full justify-center text-center items-center">
-                  <a onClick={() => setNavbar(!navbar)} href="#home" className="flex font-normal py-5 text-white">home</a> 
-                  <a onClick={() => setNavbar(!navbar)} href="#about" className="flex font-normal py-5 text-white">about</a> 
-                  <a onClick={() => setNavbar(!navbar)} href="#project" className="flex font-normal py-5 text-white">projects</a>                                   
-                </li>   
-              </ul>        
-            </div>
+        <div className=" h-screen flex md:hidden  xl:hidden transition ease-in-out animate-geser duration-400 -mt-20 py-20 " >
+          <div className='md:hidden flex items-center justify-center h-1/3 w-full bg-black/50 backdrop-blur-sm text-center rounded-md '>
+            <ul className=" md:hidden items-center justify-center text-center align-middle"> 
+              <li className="flex flex-col tracking-widest font-semibold w-full justify-center text-center items-center">
+                <a onClick={() => setNavbar(!navbar)} href="#home" className="flex font-normal py-5 text-white">home</a> 
+                <a onClick={() => setNavbar(!navbar)} href="#about" className="flex font-normal py-5 text-white">about</a> 
+                <a onClick={() => setNavbar(!navbar)} href="#project" className="flex font-normal py-5 text-white">projects</a>                                   
+              </li>   
+            </ul>        
           </div>
+        </div>
+        
        )}
 
         </>
