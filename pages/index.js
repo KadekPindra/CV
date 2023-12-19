@@ -94,7 +94,7 @@ export default function Home() {
       </section>
 
       <div className="flex flex-col md:mt-2 mt-5 opacity-70 w-full items-center justify-center">
-        <div className=" text-xs md:text-base xl:text-lg font-semibold md:mt-14 xl:-mt-10 -mt-12">
+        <div className=" text-xs md:text-base xl:text-xl font-semibold md:mt-14 xl:-mt-10 -mt-12">
           <Typewriter
           options = {{
             autoStart : true,
@@ -119,7 +119,8 @@ export default function Home() {
             <p className="text-sm md:text-base xl:text-lg text-justify leading-4 tracking-widest md:w-[272px] xl:w-fit">I am a novice programmer with a primary focus on website development. Over the past few months, I have embarked on this journey with enthusiasm and a keen interest in gaining a deeper understanding of the programming world. </p>
             <br/>
             <p className="text-sm md:text-base xl:text-lg text-justify leading-4 tracking-widest md:w-[272px] xl:w-fit">My experience as a beginner programmer includes exploring various programming languages such as HTML, CSS, and JavaScript to create visually appealing and functional interfaces for users.</p>
-            <a  className="text-sm md:text-base xl:text-xl font-semibold mt-4 py-2 px-6 w-fit border-2 border-blue-400 rounded-full cursor-pointer transition-all duration-700 hover:bg-blue-600 hover:border-blue-600 hover:text-white" href="#project" ><button>My Projects </button></a>
+            <div className=" w-full flex items-center justify-center xl:justify-start"><a  className="text-sm md:text-base xl:text-xl font-semibold mt-4 py-2 px-6 w-fit border-2 border-blue-400 rounded-full cursor-pointer transition-all duration-700 hover:bg-blue-600 hover:border-blue-600 hover:text-white" href="#project" ><button>My Projects </button></a></div>
+            
           </div>
 
           <div className="md:px-10 md:w-full xl:w-1/2 xl:px-12">
@@ -153,7 +154,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-col md:mt-2 opacity-70 w-full items-center justify-center xl:mt-10 mt-16">
-        <div className=" text-xs md:text-base xl:text-lg font-semibold md:mt-14">
+        <div className=" text-xs md:text-base xl:text-xl font-semibold md:mt-14">
           <Typewriter
           options = {{
             autoStart : true,
