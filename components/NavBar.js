@@ -56,7 +56,7 @@ const NavBar = () => {
       
       {navbar && (
         <div className=" h-screen flex md:hidden  xl:hidden transition ease-in-out animate-geser duration-400 -mt-20 py-20 " >
-          <div className='md:hidden flex items-center justify-center h-1/3 w-full bg-black/50 backdrop-blur-sm text-center rounded-md '>
+          <div className='md:hidden flex items-center justify-center h-1/2 w-full bg-black/50 backdrop-blur-sm text-center rounded-md '>
             <ul className=" md:hidden items-center justify-center text-center align-middle"> 
               <li className="flex flex-col tracking-widest font-semibold w-full justify-center text-center items-center">
                 <a onClick={() => setNavbar(!navbar)} href="#home" className="flex font-normal py-5 text-white">home</a> 
