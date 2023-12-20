@@ -214,7 +214,7 @@ export default function Home() {
                       <div className="flex flex-col justify-center items-center gap-5">
                         <h1 className="text-xl font-poppins xl:font-black xl:text-xl xl:mt-4 md:font-[1000]"><b>Portofolio Website</b></h1>
                         <p className="max-w-[20rem] text-xs h-fit mb- text-justify xl:mt-5 xl:text-base font-semibold leading-6 md:text-sm">This is my second project, namely creating a portfolio website to introduce myself on the website.  In this project I used the object of my friend who works as a photographer.  The website contains a glimpse of his personal data, skills, projects he has worked on, and contacts to contact him.  This project uses HTML, CSS and JavaScript to create it and VS-Code as the supporting software. </p>
-                        <Link target="blank" href="https://github.com/KadekPindra/Friend-Portofolio-"><button className="relative py-2 px-12 w-fit text-sm  font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-full  ">Try it</button></Link>
+                        <Link target="blank" href="https://kadekpindra.github.io/Friend-Portofolio-/"><button className="relative py-2 px-12 w-fit text-sm  font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-full  ">Try it</button></Link>
                       </div>
                     </div>
 
@@ -281,7 +281,7 @@ export default function Home() {
               <div className="xl:w-[500px] relative md:rounded-lg "><Image className="rounded-lg" src={project3} alt="Website"/></div>
                 <h1 className="font-poppins xl:font-black xl:text-xl xl:mt-4 md:font-[1000]"><b>Portofolio Website</b></h1>
                 <p className=" xl:w-[30rem] md:min-w-[20rem] xl:h-44 text-justify xl:mt-5 xl:text-base font-semibold leading-6 md:text-sm">This is my second project, namely creating a portfolio website to introduce myself on the website.  In this project I used the object of my friend who works as a photographer.  The website contains a glimpse of his personal data, skills, projects he has worked on, and contacts to contact him.  This project uses HTML, CSS and JavaScript to create it and VS-Code as the supporting software. </p>
-                <Link target="blank" href="https://github.com/KadekPindra/Friend-Portofolio-"><button className="relative py-2 px-10 w-fit xl:my-5 xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
+                <Link target="blank" href="https://kadekpindra.github.io/Friend-Portofolio-/"><button className="relative py-2 px-10 w-fit xl:my-5 xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
               </div>
             </div>
 
@@ -327,9 +327,9 @@ export default function Home() {
                   <h1 className="font-poppins xl:font-black xl:text-xl xl:mt-4 md:font-[1000]"><b>Portofolio Website</b></h1>
                   <p className=" xl:w-[30rem] md:min-w-[20rem] xl:h-44 text-justify xl:mt-5 text-base font-semibold leading-6 md:text-sm">This is my second project, creating a portfolio website to introduce myself on the website.  In this project I used the object of my friend who works as a photographer.  The website contains a glimpse of his personal data, skills, projects he has worked on, and contacts to contact him.  This project uses HTML, CSS and JavaScript to create it and VS-Code as the supporting software. </p>
                   </span>
-                  <Link className="md: hidden" target="blank" href="https://github.com/KadekPindra/Friend-Portofolio-"><button className="relative py-2 px-10 w-fit xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
+                  <Link className="md: hidden" target="blank" href="https://kadekpindra.github.io/Friend-Portofolio-/"><button className="relative py-2 px-10 w-fit xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
                 </div>
-                <Link className="hidden xl:hidden  w-full mt-12 mb-5  md:flex items-center justify-center" href="https://github.com/KadekPindra/Friend-Portofolio-"><button className="relative py-2 px-[300px] w-fit xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
+                <Link className="hidden xl:hidden  w-full mt-12 mb-5  md:flex items-center justify-center" href="https://kadekpindra.github.io/Friend-Portofolio-/"><button className="relative py-2 px-[300px] w-fit xl:text-xl font-bold tracking-wider hover:shadow-none hover:bg-[#27CBFF]  hover:text-white transition duration-500 border-[#27CBFF] shadow-lg shadow-[#7ED8FF] border-2 rounded-lg  xl:mt-10">Try it</button></Link>
               </div>
               <div className="p-4 md:my-2  bg-white  bg xl:w-fit flex xl:flex-col xl:items-center xl:ml-20 xl:mr-1 border rounded-lg shadow-xl shadow-gray-700/60 xl:h-[650px] md:flex md:flex-col">
                 <div className="flex ">
